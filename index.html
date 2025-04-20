@@ -1,59 +1,56 @@
+HTML
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Clínica Saúde Vital</title>
+<title>Clínica de Saúde</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
-<h1>Clínica Saúde Vital</h1>
-<p>Cuidando de você em todas as fases da vida</p>
+<h1>Bem-vindo à Nossa Clínica</h1>
+<p>Cuidado e bem-estar em primeiro lugar!</p>
 </header>
-<section class="services">
+<section>
 <h2>Nossos Serviços</h2>
-<div class="service-item">
-<img src="img/servicos-1.jpg" alt="Exame Laboratorial">
-<p>Exames laboratoriais completos com resultados rápidos e precisos.</p>
+<div class="services">
+<div class="service">
+<img src="img/servicos-1.jpg" alt="Serviço de Exames">
+<p>Exames laboratoriais e de imagem modernos para diagnósticos precisos.</p>
 </div>
-<div class="service-item">
-<img src="img/servicos-2.jpg" alt="Consulta Nutricional">
-<p>Aconselhamento nutricional personalizado para uma vida mais saudável.</p>
+<div class="service">
+<img src="img/servicos-2.jpg" alt="Aconselhamento Nutricional">
+<p>Aconselhamento nutricional personalizado para sua saúde e qualidade de
+vida.</p>
+</div>
 </div>
 </section>
-<section class="team">
+<section>
 <h2>Nossa Equipe</h2>
+<div class="team">
 <div class="team-member">
-<img src="img/equipe-medica1.jpg" alt="Dra. Ana - Clínica Geral">
-<p>Dra. Ana - Clínica Geral</p>
+<img src="img/equipe-medica1.jpg" alt="Médica da equipe">
+<p>Dra. Ana Souza — Clínica Geral</p>
 </div>
 <div class="team-member">
-<img src="img/equipe-medica2.jpg" alt="Dra. Marina - Nutricionista">
-<p>Dra. Marina - Nutricionista</p>
+<img src="img/equipe-medica2.jpg" alt="Médica da equipe">
+<p>Dra. Carla Mendes — Nutricionista</p>
 </div>
 <div class="team-member">
-<img src="img/equipe-medica3.jpg" alt="Dr. Pedro - Cardiologista">
-<p>Dr. Pedro - Cardiologista</p>
+<img src="img/equipe-medica3.jpg" alt="Médico da equipe">
+<p>Dr. Rafael Lima — Radiologista</p>
+</div>
 </div>
 </section>
-<section class="contact">
-<h2>Inscreva-se para saber mais</h2>
-<form>
-<label>Nome:</label>
-<input type="text" name="nome">
 
-<label>E-mail:</label>
-<input type="email" name="email">
-<label>Cidade:</label>
-<input type="text" name="cidade">
-<label>Estado:</label>
-<input type="text" name="estado">
-<button type="submit">Enviar</button>
-</form>
-</section>
-<footer>
-<p>© 2025 Clínica Saúde Vital. Todos os direitos reservados.</p>
-</footer>
-</body>
-</html>
+<section>
+<h2>Agende sua Consulta</h2>
+<form>
+<label for="nome">Nome:</label>
+<input type="text" id="nome" name="nome" required>
+<label for="email">E-mail:</label>
+<input type="email" id="email" name="email" required>
+<label for="telefone">Telefone:</label>
+<input type="tel" id="telefone" name="telefone" required>
+<button type="submit">Agendar</button
